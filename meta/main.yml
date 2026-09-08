@@ -1,6 +1,6 @@
 galaxy_info:
   role_name: ai_agents_config
-  namespace: pbouchez
+  namespace: mila
   author: Pierre Bouchez
   description: Deploy AI agents configuration files
   company: Mila
