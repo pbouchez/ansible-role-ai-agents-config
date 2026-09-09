@@ -23,9 +23,9 @@ Example Playbook
 
     - hosts: computes
       tasks:
-        - name: Import role pbouchez.ai_agents_config
+        - name: Import role mila.ai_agents_config
           ansible.builtin.import_role:
-            name: pbouchez.ai_agents_config
+            name: mila.ai_agents_config
           tags: role::ai_agents_config
 
 Note: for this minimalist telemetry example to work, you would need to set environment variables for your collector (`OTEL_EXPORTER_OTLP_ENDPOINT` for OTEL, etc).
